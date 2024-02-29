@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("38206.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    height: 300px;
+    width: 550px;
+    background-color: rgba(253,252,252);
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 4px;
+}
+.second{
+    margin-top: 15px;
+    margin-left: 80px;
+    color:rgb(37, 147, 243);
+    font-size: 3rem;  
+    
+ }
+
+ .third{
+    margin-top: 15px;
+    margin-left:70px ;
+
+ }
+
+  .option{
+    margin-top: 4px;
+    margin-left: 75px;
+    border: 1px solid black;
+    width: 350px;
+    height: 26px;
+ } 
+select{
+   margin-left: 3px;
+   margin-top: 3px;
+   border: 1px dotted black;
+   width: 330px;
+}
+ 
+
+ .icon{
+    margin-left:20px;
+ }
+
+ .forth{
+    margin-top: 20px;
+    margin-left: 75px;
+ }
+
+ .button{
+    margin-top: 45px;
+ }
+.one{
+    width: 17%; 
+    display: inline-block;
+    padding: 4px;  
+    margin-left: 245px;
+    background-color: white;
+    border-color: rgb(28, 28, 148);
+    border-radius: 4px;
+ }
+
+ .two{
+    width: 17%; 
+    display: inline-block;
+    padding: 4px;  
+    margin-left: 4px;
+    background-color: white;
+    border-radius: 4px;
+ }
+
+ .three{
+    width: 17%; 
+    display: inline-block;
+    padding: 4px;  
+    margin-left:4px ;
+    background-color: white;
+    border-radius: 4px;
+ }
+
+ .one:hover{
+    background-color: rgb(109, 191, 254);
+    border-color: rgb(27, 27, 172);
+ }
+
+ .two:hover{
+    background-color: rgb(109, 191, 254);
+    border-color: rgb(27, 27, 172);
+ }
+ .three:hover{
+    background-color: rgb(109, 191, 254);
+    border-color:  rgb(27, 27, 172);
+ }
+
+ .option:hover{
+   background-color: rgb(109, 191, 254);
+    border-color:  rgb(27, 27, 172);
+ }
